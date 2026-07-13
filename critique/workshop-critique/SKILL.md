@@ -1,6 +1,12 @@
 ---
 name: workshop-critique
 description: Runs a Milford/Clarion-style workshop critique on a chapter or short story — a group of distinct critiquers speaks in turn about what the piece is doing and where it's not working, while the author stays silent in the cone of silence. Use it when a writer wants a structured, multi-voice critique of a self-contained piece. It critiques; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: critique
+  writes_back: false
+  status: seed
+  craft_standard: "Milford/Clarion workshop method."
 ---
 
 Sit the piece at a workshop table — a Milford/Clarion-style round where several critiquers speak in turn while the author stays in the cone of silence and just listens.

@@ -1,6 +1,12 @@
 ---
 name: character-card-builder
 description: An interview-style character builder that turns a half-formed idea into a full, standard character card, one sharp question at a time. Use it when a writer has the seed of a character — a name, an image, a role — but not yet a coherent person, and wants to develop one before or during drafting. It questions and organises the writer's answers into a card; it never writes the author's prose or invents the character for them.
+license: MIT
+metadata:
+  category: character
+  writes_back: true
+  status: seed
+  craft_standard: "Character-development frameworks (Egri's premise; want vs. need)."
 ---
 
 Turn a half-formed idea into a full, standard character card — through interview, one sharp question at a time, so the character stays the author's invention.

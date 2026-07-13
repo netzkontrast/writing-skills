@@ -1,6 +1,12 @@
 ---
 name: beta-reader-panel
 description: Simulates a panel of distinct beta-reader personas reacting to a manuscript chapter by chapter — where they're confused, bored, delighted, or lost. Use it when a writer wants a reader's-eye reaction to a draft before recruiting real beta readers, or between drafts to find the places the story isn't landing. It reacts as readers; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: critique
+  writes_back: true
+  status: seed
+  craft_standard: "Reader-response / beta-reading practice."
 ---
 
 Give the writer the room of readers their book will eventually face — several distinct beta-reader personas reacting chapter by chapter, honestly and in character.

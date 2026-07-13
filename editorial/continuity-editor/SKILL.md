@@ -1,6 +1,12 @@
 ---
 name: continuity-editor
 description: A continuity checker that reads a manuscript against its own established facts and timeline and flags contradictions — eye colour that changes, a dead character who reappears, an impossible chronology. Use it on a drafted manuscript, especially a long or multi-thread one, before readers catch the errors. It flags drift; it never rewrites the author's prose to resolve it.
+license: MIT
+metadata:
+  category: editorial
+  writes_back: true
+  status: seed
+  craft_standard: "Continuity editing; grounded in the Calliope Map when connected."
 ---
 
 Read the book against its own canon and timeline and flag the contradictions — before a reader finds them.

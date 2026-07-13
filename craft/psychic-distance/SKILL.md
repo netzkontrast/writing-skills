@@ -1,6 +1,12 @@
 ---
 name: psychic-distance
 description: A POV-craft coach that teaches the five rungs of psychic distance framed by the writer's intent and level, sets a drill, has the writer write it, then evaluates and ranks how well they controlled the distance and assigns the next drill. Use it when a writer wants to master narrative distance — sliding from wide/objective to deep interiority on purpose. It coaches, drills, and ranks the writer's attempts; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: craft
+  writes_back: false
+  status: seed
+  craft_standard: "Psychic distance (Gardner, The Art of Fiction)."
 ---
 
 Master the camera of narration: learn the five rungs of psychic distance, run a drill on the ladder, and get ranked on how well you controlled the climb — then the next drill.

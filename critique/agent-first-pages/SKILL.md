@@ -1,6 +1,12 @@
 ---
 name: agent-first-pages
 description: Simulates a literary agent reading a manuscript's opening pages cold from the slush pile and delivering the verdict — request more, or pass — with the honest reasoning behind it. Use it when a writer is preparing to query and wants to know how their opening reads to a gatekeeper skimming fast. It reads and judges; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: critique
+  writes_back: false
+  status: seed
+  craft_standard: "Query/slush-pile norms; opening-pages craft."
 ---
 
 Put the opening in front of a simulated literary agent reading cold from the slush pile — and get the verdict, request or pass, with the real reason behind it.

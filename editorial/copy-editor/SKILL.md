@@ -1,6 +1,12 @@
 ---
 name: copy-editor
 description: A copy-editing pass that reads the manuscript for grammar, punctuation, consistency, and house style, and flags each issue with the governing rule so the writer makes the call. Use it late, once the prose is settled, for a clean-up sweep before submission or publication. It flags and cites the rule; it never silently rewrites the author's text.
+license: MIT
+metadata:
+  category: editorial
+  writes_back: true
+  status: seed
+  craft_standard: "Chicago Manual of Style conventions."
 ---
 
 Sweep the manuscript for the mechanical layer — grammar, punctuation, consistency, house style — and flag each issue with the rule behind it, so the writer decides.

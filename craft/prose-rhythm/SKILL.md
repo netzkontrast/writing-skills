@@ -1,6 +1,12 @@
 ---
 name: prose-rhythm
 description: A prose-rhythm coach that teaches sentence variety, sound, and cadence framed by the writer's intent and level, sets a drill, has the writer write it, then scores and ranks the attempt against rhythm criteria and assigns the next drill. Use it when a writer wants to tune the music of their prose — sentence length, sound, and pacing. It coaches, drills, and ranks the writer's attempts; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: craft
+  writes_back: false
+  status: seed
+  craft_standard: "Prose rhythm (Le Guin; Tufte's syntax)."
 ---
 
 Tune the music of your prose: theory on rhythm aimed at what you're working on, one exercise, you write it, and a scored read of your cadence — then the next drill.

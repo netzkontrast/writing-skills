@@ -1,6 +1,12 @@
 ---
 name: scene-architecture
 description: A scene-craft coach that teaches scene structure (goal, conflict, disaster; scene and sequel) framed by the writer's intent and level, sets a drill, has the writer write it, then scores and ranks the attempt against scene criteria and assigns the next drill. Use it when a writer wants to deliberately strengthen how they build scenes. It coaches, drills, and ranks the writer's attempts; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: craft
+  writes_back: false
+  status: seed
+  craft_standard: "Scene/sequel structure (Swain; Bickham)."
 ---
 
 Build stronger scenes on purpose: theory on scene structure aimed at what you're working on, one drill, you write it, and a scored read of your attempt — then the next drill.

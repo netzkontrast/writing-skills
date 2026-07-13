@@ -1,6 +1,12 @@
 ---
 name: dialogue-gym
 description: A dialogue coach that teaches dialogue craft framed by the writer's stated intent and level, sets a targeted drill, has the writer write it, then evaluates and ranks the attempt against dialogue criteria and assigns the next drill. Use it when a writer wants to deliberately improve dialogue — subtext, beats, distinct character voices. It coaches, drills, and ranks the writer's attempts; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: craft
+  writes_back: false
+  status: seed
+  craft_standard: "Dialogue craft (text vs. subtext; the beat)."
 ---
 
 Train dialogue the way you'd train in a gym: a short theory brief aimed at what you're working on, one targeted drill, you write it, and a ranked read of how you did — then the next drill.

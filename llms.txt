@@ -1,0 +1,30 @@
+# Writing Skills
+
+> Augmentation-only Claude Agent Skills for fiction writers. Each skill reads,
+> analyses, critiques, or drills — and never writes the author's prose. Usable
+> in any Claude session, or connected to a real manuscript over the Calliope
+> MCP connector (https://writecalliope.ink/features/mcp).
+
+The one rule: no skill writes or rewrites prose. "tends canon" means it can write
+findings to a Calliope Map/marginalia over MCP (with a subscription), never prose.
+
+## Editorial
+- [developmental-editor](editorial/developmental-editor/SKILL.md): big-picture edit letter — structure, pacing, arc, stakes. tends canon.
+- [line-editor](editorial/line-editor/SKILL.md): sentence craft — rhythm, clarity, voice, overwriting. tends canon.
+- [copy-editor](editorial/copy-editor/SKILL.md): grammar, punctuation, consistency, house style, flagged with the rule. tends canon.
+- [continuity-editor](editorial/continuity-editor/SKILL.md): flags contradictions in facts and timeline; pairs with the Map. tends canon.
+
+## Character
+- [reverse-character-cards](character/reverse-character-cards/SKILL.md): reverse-engineers character cards from the manuscript. tends canon.
+- [character-card-builder](character/character-card-builder/SKILL.md): builds a character card from scratch, interview-style. tends canon.
+
+## Critique
+- [beta-reader-panel](critique/beta-reader-panel/SKILL.md): distinct beta-reader personas react chapter by chapter. tends canon.
+- [agent-first-pages](critique/agent-first-pages/SKILL.md): a literary agent's slush-pile read of the opening. read-only.
+- [workshop-critique](critique/workshop-critique/SKILL.md): a Milford/Clarion-style multi-voice critique. read-only.
+
+## Craft drills
+- [dialogue-gym](craft/dialogue-gym/SKILL.md): theory → drill → you write → ranked feedback, on dialogue. read-only.
+- [scene-architecture](craft/scene-architecture/SKILL.md): scene structure drills, scored. read-only.
+- [psychic-distance](craft/psychic-distance/SKILL.md): POV distance drills, ranked. read-only.
+- [prose-rhythm](craft/prose-rhythm/SKILL.md): sentence rhythm drills, scored. read-only.

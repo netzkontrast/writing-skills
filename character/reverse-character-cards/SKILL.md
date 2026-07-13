@@ -1,6 +1,12 @@
 ---
 name: reverse-character-cards
 description: Reads a finished or drafted manuscript and reverse-engineers a standard character card for each major player — goal, wound, arc, voice, relationships — built only from what is actually on the page. Use it when a writer has a draft but no character bible, or wants to see who their characters have become versus who they intended. It reads and documents; it never writes or rewrites the author's prose.
+license: MIT
+metadata:
+  category: character
+  writes_back: true
+  status: seed
+  craft_standard: "Industry character-bible templates."
 ---
 
 Read the manuscript and build a standard character card for each major player, reverse-engineered from what's actually on the page — not from what the author meant to put there.

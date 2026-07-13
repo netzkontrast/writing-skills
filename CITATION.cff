@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these skills, please cite this repository."
+title: "Writing Skills — augmentation-only Agent Skills for writers"
+abstract: >-
+  A public, forkable catalog of Claude Agent Skills for fiction writers —
+  editors, critique simulators, character work, and craft drills — that read
+  and critique a manuscript and never write the author's prose.
+type: software
+authors:
+  - name: "Calliope (Rhymenoceros s. r. o.)"
+    website: "https://writecalliope.ink"
+repository-code: "https://github.com/calliope-editor/writing-skills"
+url: "https://writecalliope.ink/features/mcp"
+license: MIT
+keywords:
+  - agent-skills
+  - claude
+  - writing
+  - fiction
+  - editing
+  - creative-writing
+  - mcp
