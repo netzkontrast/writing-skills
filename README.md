@@ -84,10 +84,6 @@ Every skill is self-contained. Drop a skill's `SKILL.md` into any Agent-Skills-c
 **With Calliope — connect over MCP, work on your whole book.**
 [Calliope](https://writecalliope.ink) is a manuscript-first writing app. Connect a skill to your Calliope book over the [MCP connector](https://writecalliope.ink/docs/mcp) and it reads the *real* manuscript — chapters in order, a search across the whole book, your **Map** (characters, arcs, timeline) and **marginalia** — instead of only the snippet you pasted. See how it fits together at **[writecalliope.ink/features/mcp](https://writecalliope.ink/features/mcp)**.
 
-## These are seeds — fork them
-
-Each `SKILL.md` is a **seed**, not a finished prompt: coherent and usable, but the deep work — rubrics, worked examples, drill ladders — is marked with `<!-- TODO(research): … -->` for you to develop. Fork the repo, shape a skill to your own craft and taste, and make it yours. That's what it's for.
-
 ## The one rule
 
 Everything here is **augmentation-only**. A skill may read, analyse, critique, teach, and — over MCP — tend your canon. **No skill may write or rewrite the author's prose.** A contribution that drafts, ghostwrites, or "rewrites in your voice" is out of scope by design. What you get back is diagnosis, reaction, and ranked feedback — the things a good editor, a good beta reader, and a good workshop give you — never a draft written for you.
