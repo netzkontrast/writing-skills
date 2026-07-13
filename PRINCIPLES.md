@@ -81,6 +81,14 @@ This repo is the clean, general upstream; the fork is where Calliope-specific
 depth accrues. `writes_back` in the frontmatter is the integration signal to
 that fork — it never implies the public skill needs an account to function.
 
+And Calliope compatibility is **optional, never required.** The whole gate for a
+skill is: it obeys [the one rule](README.md#the-one-rule), it's useful
+standalone, and it fits the catalog (fiction-writing augmentation). A skill with
+no meaningful Calliope path is fully welcome — it simply omits the
+`## With Calliope (MCP)` section and sets `writes_back: false`. #8 rejects one
+thing only: a skill that can't run *without* the connector. The reverse — a
+skill that never touches Calliope — is not a defect.
+
 ## How these land in a SKILL.md
 
 This file is canon for contributors; skills travel alone once installed, so
