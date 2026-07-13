@@ -21,31 +21,39 @@ Built as [Claude](https://claude.com) Agent Skills, usable in any Claude session
 > ## 13 skills · 4 categories · 0 that write your prose
 > Fork any one, shape it to your craft, and point it at your book.
 
+## Who these are for
+
+**Ambitious beginners and self-published authors** — the writer with a draft and
+no editor on retainer. Every skill gives the professional-grade read, never a
+dumbed-down one; it explains craft terms at first use and assumes no MFA. Further
+along than that? Each skill reads your context and drops the glossary. The design
+law behind all of them is short and public: **[PRINCIPLES.md](PRINCIPLES.md)**.
+
 ## The catalog
 
 ### ✍️ Editorial — simulated editors, from the story read to the copy pass
 
 | Skill | What it does | Tends canon\* |
 |---|---|:--:|
-| [**developmental-editor**](editorial/developmental-editor) | The big-picture read: structure, pacing, arc, stakes — an edit letter, before any line edits. | ✓ |
-| [**line-editor**](editorial/line-editor) | Sentence craft — rhythm, clarity, voice, overwriting. Shows the weak line and why; never rewrites it. | ✓ |
-| [**copy-editor**](editorial/copy-editor) | Grammar, punctuation, consistency, house style — each flagged with the governing rule, so you decide. | ✓ |
-| [**continuity-editor**](editorial/continuity-editor) | Reads the book against its own facts and timeline and flags the contradictions. Pairs with the Map. | ✓ |
+| [**developmental-editor**](skills/editorial/developmental-editor) | The big-picture read: structure, pacing, arc, stakes — an edit letter, before any line edits. | ✓ |
+| [**line-editor**](skills/editorial/line-editor) | Sentence craft — rhythm, clarity, voice, overwriting. Shows the weak line and why; never rewrites it. | ✓ |
+| [**copy-editor**](skills/editorial/copy-editor) | Grammar, punctuation, consistency, house style — each flagged with the governing rule, so you decide. | ✓ |
+| [**continuity-editor**](skills/editorial/continuity-editor) | Reads the book against its own facts and timeline and flags the contradictions. Pairs with the Map. | ✓ |
 
 ### 🎭 Character — industry-standard cards
 
 | Skill | What it does | Tends canon\* |
 |---|---|:--:|
-| [**reverse-character-cards**](character/reverse-character-cards) | Reverse-engineers a standard character card per major player, built only from what's on the page. | ✓ |
-| [**character-card-builder**](character/character-card-builder) | Builds a card from scratch, interview-style — one sharp question at a time. | ✓ |
+| [**reverse-character-cards**](skills/character/reverse-character-cards) | Reverse-engineers a standard character card per major player, built only from what's on the page. | ✓ |
+| [**character-card-builder**](skills/character/character-card-builder) | Builds a card from scratch, interview-style — one sharp question at a time. | ✓ |
 
 ### 🔍 Critique simulators — the rooms your book will face
 
 | Skill | What it does | Tends canon\* |
 |---|---|:--:|
-| [**beta-reader-panel**](critique/beta-reader-panel) | A panel of distinct reader personas reacting chapter by chapter — confused, bored, delighted, lost. | ✓ |
-| [**agent-first-pages**](critique/agent-first-pages) | A literary agent's slush-pile read of your opening: request, or pass — and the honest why. | — |
-| [**workshop-critique**](critique/workshop-critique) | A Milford/Clarion-style critique round; the group speaks while you stay in the cone of silence. | — |
+| [**beta-reader-panel**](skills/critique/beta-reader-panel) | A panel of distinct reader personas reacting chapter by chapter — confused, bored, delighted, lost. | ✓ |
+| [**agent-first-pages**](skills/critique/agent-first-pages) | A literary agent's slush-pile read of your opening: request, or pass — and the honest why. | — |
+| [**workshop-critique**](skills/critique/workshop-critique) | A Milford/Clarion-style critique round; the group speaks while you stay in the cone of silence. | — |
 
 ### 🏋️ Craft drills — get better on purpose
 
@@ -53,16 +61,24 @@ Built as [Claude](https://claude.com) Agent Skills, usable in any Claude session
 
 | Skill | What it does | Tends canon\* |
 |---|---|:--:|
-| [**dialogue-gym**](craft/dialogue-gym) | Subtext, beats, and distinct voices — drilled and ranked. | — |
-| [**scene-architecture**](craft/scene-architecture) | Goal, conflict, disaster; scene and sequel — drilled and scored. | — |
-| [**psychic-distance**](craft/psychic-distance) | The five rungs of narrative distance, and controlling them on purpose. | — |
-| [**prose-rhythm**](craft/prose-rhythm) | Sentence variety, sound, and cadence — tuned and scored. | — |
+| [**dialogue-gym**](skills/craft/dialogue-gym) | Subtext, beats, and distinct voices — drilled and ranked. | — |
+| [**scene-architecture**](skills/craft/scene-architecture) | Goal, conflict, disaster; scene and sequel — drilled and scored. | — |
+| [**psychic-distance**](skills/craft/psychic-distance) | The five rungs of narrative distance, and controlling them on purpose. | — |
+| [**prose-rhythm**](skills/craft/prose-rhythm) | Sentence variety, sound, and cadence — tuned and scored. | — |
 
 \* **Tends canon** — connected to a Calliope book over MCP, these skills can write their findings back to your **Map** or **marginalia** (a character card, an edit letter, a continuity flag) — never your prose, and with a Calliope subscription. The rest return their output as text.
 
-## Two ways to use a skill
+## Get the skills
 
-**Universal — paste or attach, in any Claude session.**
+**One command, 70+ agents.**
+The catalog follows the [Agent Skills](https://agentskills.io) standard, so the [skills CLI](https://github.com/vercel-labs/skills) installs it into Claude Code, Cursor, Codex, Copilot, and friends — project-level by default, `--global` for everywhere:
+
+```bash
+npx skills add calliope-editor/writing-skills                      # the whole catalog
+npx skills add calliope-editor/writing-skills --skill line-editor  # just one
+```
+
+**No installer — paste or attach, in any Claude session.**
 Every skill is self-contained. Drop a skill's `SKILL.md` into any Agent-Skills-capable client, then paste your text, attach a manuscript file, or name a chapter range. No account, plugin, or subscription required. The skill works on exactly the text you hand it and returns its output as text or markdown.
 
 **With Calliope — connect over MCP, work on your whole book.**
@@ -78,7 +94,7 @@ Everything here is **augmentation-only**. A skill may read, analyse, critique, t
 
 ## Contributing
 
-New skills are welcome — a folder, a `SKILL.md`, and a row in the catalog above. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the skill format and the one hard rule. Please also read the **[Code of Conduct](CODE_OF_CONDUCT.md)**.
+Two ways in: **deepen a seeded skill** (fill its `TODO(research)` markers with researched substance) or **add a new one** that maps to a real service, room, or drill. Every contribution is measured against **[PRINCIPLES.md](PRINCIPLES.md)** and the one rule above. **[CONTRIBUTING.md](CONTRIBUTING.md)** has the skill format, how to approach an edit, and when a seed graduates to `reviewed`. Please also read the **[Code of Conduct](CODE_OF_CONDUCT.md)**.
 
 ## License
 

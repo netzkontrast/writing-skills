@@ -1,15 +1,50 @@
 # Contributing
 
-Thanks for wanting to add to the catalog. New skills, and improvements to the seeded ones, are welcome.
+Thanks for wanting to add to the catalog. New skills, and improvements to the
+seeded ones, are both welcome — this file covers both paths. The design law every
+contribution is measured against lives in **[PRINCIPLES.md](PRINCIPLES.md)**; read
+it first, it's short.
 
 ## The one hard rule
 
 **A skill may never write or rewrite the author's prose.** It may read, analyse, critique, teach, simulate a reader/editor/agent, and — over MCP — tend canon (Map, marginalia). It may *not* draft, ghostwrite, continue, or "rewrite in your voice." A PR that does is out of scope by design. Everything here is augmentation-only; that constraint is the point of the project.
 
-## Adding a skill
+## Improving a seeded skill
 
-1. Pick the right category folder: `editorial/`, `character/`, `critique/`, or `craft/` (or propose a new one).
-2. Create `<category>/<skill-name>/SKILL.md` where `<skill-name>` is kebab-case and matches the `name:` in the frontmatter.
+Most of the catalog is `status: seed` — coherent and usable, with the deep work
+marked by `<!-- TODO(research): … -->`. Deepening a seed is the most valuable
+contribution there is. How to approach it:
+
+- **Fill TODOs with researched substance, not filler.** Each marker asks for
+  something specific — rubrics, diagnostic questions, worked examples, drill
+  ladders. Source them from real craft lineages and name the method or author
+  (attribution only; never reproduce their text).
+- **Keep the protocol intact.** Every skill establishes context before critique,
+  declares its lens (applied / re-scoped / set aside), and obeys the output
+  rules: location + evidence + stakes, root causes over symptom lists,
+  confidence marked ([PRINCIPLES.md](PRINCIPLES.md) #2–#6). An edit that strips
+  these regresses the skill, whatever else it adds.
+- **Keep the frontmatter true.** `writes_back` is an integration signal for the
+  Calliope app team — never flip it casually. `category` and `craft_standard`
+  must keep matching the body.
+- **Run it before you PR.** Point the skill at a real manuscript — public-domain
+  novels are good subjects; *Pride and Prejudice* will happily absorb one more
+  developmental edit — and say in the PR what you ran and how the output held
+  up against the principles.
+
+A seed graduates to `status: reviewed` when its TODOs are gone, the protocol is
+embedded, it has been run end-to-end against at least one real manuscript, and a
+maintainer has read what it produced.
+
+## Adding a new skill
+
+New skills are welcome when they map to something real: a service writers buy, a
+room a manuscript faces, a drill a coach assigns — *simulate the service, not
+the vibe*. Before adding one, check the idea isn't really a mode of an existing
+skill; a deeper seed beats a wider catalog.
+
+1. Pick the right category folder under `skills/`: `skills/editorial/`, `skills/character/`, `skills/critique/`, or `skills/craft/` (or propose a new one). The `skills/<category>/<name>/SKILL.md` shape is the [Agent Skills](https://agentskills.io) catalog layout — `npx skills add` depends on it.
+2. Create `skills/<category>/<skill-name>/SKILL.md` where `<skill-name>` is kebab-case and matches the `name:` in the frontmatter.
 3. Follow the frontmatter shape used across the repo:
 
    ```yaml
@@ -34,8 +69,10 @@ Thanks for wanting to add to the catalog. New skills, and improvements to the se
 
 ## Seeds are fine
 
-Skills here are seeds. It's OK to leave `<!-- TODO(research): … -->` markers where deeper work belongs — a clear, honest seed is more useful than an over-claimed one.
+Skills here are seeds. It's OK to leave `<!-- TODO(research): … -->` markers where
+deeper work belongs — a clear, honest seed is more useful than an over-claimed one.
 
 ## Pull requests
 
-Open a PR with a short description of the skill and who it's for. Be kind and constructive — see the [Code of Conduct](CODE_OF_CONDUCT.md).
+Open a PR with a short description of the skill and who it's for. Be kind and
+constructive — see the [Code of Conduct](CODE_OF_CONDUCT.md).
