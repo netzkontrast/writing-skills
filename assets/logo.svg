@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" width="480" height="120" role="img" aria-label="writing skills">
+  <defs>
+    <linearGradient id="dot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6f978f"/>
+      <stop offset="1" stop-color="#4f706c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="36" cy="60" r="26" fill="url(#dot)"/>
+  <text x="82" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#2B2722">writing skills</text>
+</svg>

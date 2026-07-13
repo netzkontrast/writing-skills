@@ -1,12 +1,18 @@
-# Writing Skills
+<p align="center">
+  <img src="assets/logo.svg" alt="Writing Skills" width="440">
+</p>
 
-**Augmentation-only [Agent Skills](https://www.anthropic.com/news/skills) for fiction writers — an editor, a critique group, a character bible, and a craft coach that read your manuscript and never write a word of it.**
+<p align="center">
+  <strong>Augmentation-only <a href="https://www.anthropic.com/news/skills">Agent Skills</a> for fiction writers — an editor, a critique group, a character bible, and a craft coach that read your manuscript and never write a word of it.</strong>
+</p>
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-5E8480)](LICENSE)
-[![Skills: 13](https://img.shields.io/badge/skills-13-5E8480)](#the-catalog)
-![Works with Claude, ChatGPT, Cursor](https://img.shields.io/badge/works%20with-Claude%20%7C%20ChatGPT%20%7C%20Cursor-2B2722)
-![Augmentation only](https://img.shields.io/badge/augmentation-only-B7355E)
-[![Stars](https://img.shields.io/github/stars/calliope-editor/writing-skills?color=5E8480)](https://github.com/calliope-editor/writing-skills/stargazers)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5E8480" alt="License: MIT"></a>
+  <a href="#the-catalog"><img src="https://img.shields.io/badge/skills-13-5E8480" alt="Skills: 13"></a>
+  <img src="https://img.shields.io/badge/works%20with-Claude%20%7C%20ChatGPT%20%7C%20Cursor-2B2722" alt="Works with Claude, ChatGPT, Cursor">
+  <img src="https://img.shields.io/badge/augmentation-only-B7355E" alt="Augmentation only">
+  <a href="https://github.com/calliope-editor/writing-skills/stargazers"><img src="https://img.shields.io/github/stars/calliope-editor/writing-skills?color=5E8480" alt="Stars"></a>
+</p>
 
 Every AI writing tool wants to draft for you. **These don't.** Each skill reads your book, critiques it, simulates a room it will face, or drills you on craft — and hands back diagnosis, reaction, and ranked feedback. Never prose. The words on the page stay yours; that refusal is the whole point.
 
