@@ -7,6 +7,14 @@ All notable changes to this catalog are documented here. The format loosely foll
 
 ### Changed
 
+- **`continuity-editor` deepened (seed, research-complete)** — built out with
+  verified method and posture: it builds the trade's **style sheet** as its
+  canon model (Characters / Places / Timeline, age-math, page-of-first-
+  occurrence), flags every collision as a **query about intent** and never picks
+  canon, and separates confirmed contradictions from suspected-device flags —
+  holding cross-narrator and withheld-reveal judgments at low confidence because
+  the evidence says they're hard. Standalone-first; brief Calliope section.
+  Awaiting live test before it graduates to `reviewed`.
 - **`developmental-editor` deepened** — the first seed built out into a working
   skill: two service tiers (assessment / full edit) chosen at intake, an
   evidence-backed intake questionnaire, the applied/re-scoped/set-aside lens,
@@ -27,6 +35,11 @@ All notable changes to this catalog are documented here. The format loosely foll
 
 ### Added
 
+- **PRINCIPLES.md #8 — Standalone first.** Every skill must be fully useful
+  with zero Calliope; the MCP path is enhancement, never a dependency. Deep
+  Calliope optimization lives in a downstream fork; this repo is the general
+  upstream. `## With Calliope (MCP)` sections stay brief. CONTRIBUTING updated
+  to match.
 - README **"Get the skills"** section — one-command install via the skills CLI
   (`npx skills add calliope-editor/writing-skills`), alongside the paste-anywhere
   and Calliope-MCP paths.

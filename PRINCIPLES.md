@@ -65,9 +65,26 @@ terms at first use and gatekeeps nothing. The context profile adapts the
 register upward when the writer clearly doesn't need the glossary — we don't
 fork skills by audience.
 
+## 8. Standalone first — Calliope earns its keep, never gates the skill
+
+Every skill in this repo must be **fully useful with zero Calliope**: paste or
+attach text, and it works and returns its result. The Calliope (MCP) path may
+make a skill *better* — reading the real book, writing findings to the Map or
+marginalia — but its absence never makes a skill non-functional. A skill that
+can't run without the connector doesn't belong in this repo.
+
+So each `SKILL.md` keeps its `## With Calliope (MCP)` section **brief** — an
+honest description of the enhancement, not a wiring diagram. The deep
+optimization (orchestrating the actual tools) lives in Calliope's downstream
+**fork** of this repo, which specializes each general skill for the product.
+This repo is the clean, general upstream; the fork is where Calliope-specific
+depth accrues. `writes_back` in the frontmatter is the integration signal to
+that fork — it never implies the public skill needs an account to function.
+
 ## How these land in a SKILL.md
 
 This file is canon for contributors; skills travel alone once installed, so
 each `SKILL.md` embeds the working form: an adaptive-intake step, a declared
-lens in the output contract, and output rules that enforce #4–#6 — compact,
-governing behavior, not pasted in as prose.
+lens in the output contract, output rules that enforce #4–#6, and a brief
+Calliope-enhancement section per #8 — compact, governing behavior, not pasted
+in as prose.
