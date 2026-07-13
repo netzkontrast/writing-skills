@@ -1,3 +1,6 @@
+# Internal working notes (session handoffs) — never published
+handoffs/
+
 # OS / editor cruft
 .DS_Store
 Thumbs.db
