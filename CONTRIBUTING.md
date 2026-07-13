@@ -63,7 +63,7 @@ skill; a deeper seed beats a wider catalog.
    ---
    ```
 
-4. In the body, include: a one-line purpose; a `## The one rule` restating the refusal; `## Craft criteria` it reasons from; an `## Input` contract (pasted text / attached file / chapter range — no tool assumed); `## How it runs`; `## Output`; and a `## With Calliope (MCP)` section describing the connected path (and, if `writes_back: true`, what it writes to the Map/marginalia — never prose).
+4. In the body, include: a one-line purpose; a `## The one rule` restating the refusal; `## Craft criteria` it reasons from; an `## Input` contract (pasted text / attached file / chapter range — no tool assumed); `## How it runs`; `## Output`; a `## The shelf` section naming the books, trade standards, and documents the skill actually reasons from (attribution only — and only what it truly draws on, nothing decorative); and a `## With Calliope (MCP)` section describing the connected path (and, if `writes_back: true`, what it writes to the Map/marginalia — never prose).
 5. Add a row for it to the catalog table in the [README](README.md).
 6. Keep craft-method references as **attribution only** — name the method or author; never paste or reproduce their text.
 

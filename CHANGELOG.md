@@ -7,6 +7,17 @@ All notable changes to this catalog are documented here. The format loosely foll
 
 ### Changed
 
+- **`developmental-editor` deepened** — the first seed built out into a working
+  skill: two service tiers (assessment / full edit) chosen at intake, an
+  evidence-backed intake questionnaire, the applied/re-scoped/set-aside lens,
+  and a verified diagnostic battery (Save the Cat beat bands, Weiland's midpoint
+  behavior test, Mamet's scene-chain audit, Story Grid's scene diagnostic, the
+  RWA romance gate) — plus a **The shelf** section crediting the books and
+  standards it reasons from. Genre-general, not romance-specific. Validated
+  end-to-end against a full novel; one genre-anchor `TODO(research)` remains, so
+  it stays `status: seed` until that closes.
+- **CONTRIBUTING** now requires a **The shelf** section in every skill —
+  attribution of the books/standards a skill actually reasons from.
 - **Catalog moved under `skills/`** — `skills/<category>/<skill-name>/SKILL.md`,
   the [Agent Skills](https://agentskills.io) catalog layout, so
   `npx skills add calliope-editor/writing-skills` resolves via the standard
