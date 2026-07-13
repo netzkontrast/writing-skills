@@ -14,7 +14,7 @@ license: MIT
 metadata:
   category: editorial
   writes_back: true
-  status: seed
+  status: reviewed
   craft_standard: "Fiction copyediting's style-sheet and author-query practice (Chicago Guide to Copyediting Fiction; CIEP; CMOS; SFWA) and the author's story bible."
 ---
 

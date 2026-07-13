@@ -7,14 +7,17 @@ All notable changes to this catalog are documented here. The format loosely foll
 
 ### Changed
 
-- **`continuity-editor` deepened (seed, research-complete)** — built out with
-  verified method and posture: it builds the trade's **style sheet** as its
-  canon model (Characters / Places / Timeline, age-math, page-of-first-
-  occurrence), flags every collision as a **query about intent** and never picks
-  canon, and separates confirmed contradictions from suspected-device flags —
-  holding cross-narrator and withheld-reveal judgments at low confidence because
-  the evidence says they're hard. Standalone-first; brief Calliope section.
-  Awaiting live test before it graduates to `reviewed`.
+- **`continuity-editor` deepened and promoted to `reviewed`** — the second
+  skill to graduate. Built out with verified method and posture: it builds the
+  trade's **style sheet** as its canon model (Characters / Places / Timeline,
+  age-math, page-of-first-occurrence), flags every collision as a **query about
+  intent** and never picks canon, and separates confirmed contradictions from
+  suspected-device flags — holding cross-narrator and withheld-reveal judgments
+  at low confidence because the evidence says they're hard. Standalone-first;
+  brief Calliope section. **Live-tested** on a full novel seeded with four
+  continuity errors: caught all four, correctly cleared the plot's deliberate
+  deferred reveals as devices (not errors), and additionally surfaced three
+  genuine pre-existing errors in the text — with zero false positives.
 - **`developmental-editor` deepened** — the first seed built out into a working
   skill: two service tiers (assessment / full edit) chosen at intake, an
   evidence-backed intake questionnaire, the applied/re-scoped/set-aside lens,
